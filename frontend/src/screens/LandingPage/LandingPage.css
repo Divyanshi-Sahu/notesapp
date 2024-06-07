@@ -1,0 +1,77 @@
+main{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url('images10.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 1px;
+    /* width: 70%;
+    margin-left: 12rem; */
+}
+
+.intro-text{
+    width: 100%;
+    text-align: center;
+    color: rgb(14, 13, 14);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    font-size: 95px;
+    margin-left: 7rem;
+}
+
+.subtitle{
+    font-size: 25px;
+    padding-top: 10px;
+    color: rgb(108, 28, 199);
+    margin-left: 9rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnlogin{
+    margin-left: 9rem;
+}
+
+.btnContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.landingbutton{
+    width: 200px;
+    height: 55px;
+    /* margin-left: 50px; */
+}
+
+@media only screen and (min-width:1200px){
+    .btnContainer{
+        padding: 0 200px;
+    }
+
+    .title{
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (max-width:768px){
+   .landingbutton{
+    width: 120px;
+    height: 40px;
+   }
+
+    .title{
+        font-size: 70px;
+    }
+
+    .subtitle{
+        font-size: 18px;
+    }
+
+    .intro-text{
+        margin-left: -2.5rem ;
+        margin-top: 1rem;
+    }
+}
